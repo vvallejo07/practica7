@@ -37,7 +37,7 @@ $(function(){
 				}
 			}else{
 				if(watchBR != null){
-					navigator.compass.clearWatch(watchAC);
+					navigator.compass.clearWatch(watchBR);
 					watchBR = null;
 					$('#brujula h2').html('Detenido');
 				}
